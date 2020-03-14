@@ -29,7 +29,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>Reproducible-Research-Course-Project-1/README.md at master · Natasha-R/Reproducible-Research-Course-Project-1</title>
+  <title>Reproducible-Research-Course-Project-1/PA1_template.md at master · Natasha-R/Reproducible-Research-Course-Project-1</title>
     <meta name="description" content="Repository for Course Project 1 for the &quot;Reproducible Research&quot; Course on Coursera - Natasha-R/Reproducible-Research-Course-Project-1">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -39,10 +39,10 @@
     <meta property="og:image" content="https://avatars1.githubusercontent.com/u/12715753?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="Natasha-R/Reproducible-Research-Course-Project-1" /><meta property="og:url" content="https://github.com/Natasha-R/Reproducible-Research-Course-Project-1" /><meta property="og:description" content="Repository for Course Project 1 for the &quot;Reproducible Research&quot; Course on Coursera - Natasha-R/Reproducible-Research-Course-Project-1" />
 
   <link rel="assets" href="https://github.githubassets.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDk2MDE3OTg2Ojg0ZGU3NzgwMDMwNmVmMDg2NzAyMDhhMWRiZDQwOGYyNTJlYWM2MTA3ZmQ2MzVjZDUyNDNjYTAxNTVhZjQ2YjY=--90e6174c081abebfdcee5141957587c76210c9a8">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NDk2MDE3OTg2OjIwZDA4ZGQ4NDI4ZTU4MzcxMGYxYzAxZTBlOGE0ZDUwZTc3MWMzMDk2OTQ3ZTBjMWE4MjM2ZDAwMDYwYWM3YTc=--a7cc4ef509d105b151833b7adb1d11fbcd7853e5">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
 
-  <meta name="request-id" content="CDA5:3E80:81993:AB807:5E69281B" data-pjax-transient="true" /><meta name="html-safe-nonce" content="ff74d326edbdbbceb149db0a5e8ddc3eead29956" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9OYXRhc2hhLVIvUmVwcm9kdWNpYmxlLVJlc2VhcmNoLUNvdXJzZS1Qcm9qZWN0LTEiLCJyZXF1ZXN0X2lkIjoiQ0RBNTozRTgwOjgxOTkzOkFCODA3OjVFNjkyODFCIiwidmlzaXRvcl9pZCI6IjM5MjU1OTY3ODE1MjUxODMwOTAiLCJyZWdpb25fZWRnZSI6ImFwLXNvdXRoLTEiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true" /><meta name="visitor-hmac" content="460e0aae0f1b4bf15f1f30d837e15da786938fc6b4d2383a758e15219b41a948" data-pjax-transient="true" />
+  <meta name="request-id" content="CD9B:0E63:7FC43:A8963:5E692800" data-pjax-transient="true" /><meta name="html-safe-nonce" content="ff74d326edbdbbceb149db0a5e8ddc3eead29956" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9OYXRhc2hhLVIvUmVwcm9kdWNpYmxlLVJlc2VhcmNoLUNvdXJzZS1Qcm9qZWN0LTEiLCJyZXF1ZXN0X2lkIjoiQ0Q5QjowRTYzOjdGQzQzOkE4OTYzOjVFNjkyODAwIiwidmlzaXRvcl9pZCI6IjM5MjU1OTY3ODE1MjUxODMwOTAiLCJyZWdpb25fZWRnZSI6ImFwLXNvdXRoLTEiLCJyZWdpb25fcmVuZGVyIjoiaWFkIn0=" data-pjax-transient="true" /><meta name="visitor-hmac" content="e93863dd894cec4ad2d4aa4402036ee7f31bd82cde4922292a26a2572f03cf6c" data-pjax-transient="true" />
 
 
 
@@ -76,7 +76,7 @@
 
       <meta name="expected-hostname" content="github.com">
 
-      <meta name="js-proxy-site-detection-payload" content="M2FlOTQ2YzdjMjQwZGFlMDc1ZWY4Zjc0YjRkNjdjNmViYTYxMjdhYmYzMTYwMDE2OTY2ZDA2ZmYwNjExNzM5Nnx7InJlbW90ZV9hZGRyZXNzIjoiMS4xODYuMTMuNiIsInJlcXVlc3RfaWQiOiJDREE1OjNFODA6ODE5OTM6QUI4MDc6NUU2OTI4MUIiLCJ0aW1lc3RhbXAiOjE1ODM5NDk4NTIsImhvc3QiOiJnaXRodWIuY29tIn0=">
+      <meta name="js-proxy-site-detection-payload" content="ZjdhNWY0MjFmMzI0ZjE1NjljMTA0OGU3NGI0NDBmZGFmNmM2MTBmNGFmZDQyNzYzYWMzOTE5ZDZmODBjMDZmN3x7InJlbW90ZV9hZGRyZXNzIjoiMS4xODYuMTMuNiIsInJlcXVlc3RfaWQiOiJDRDlCOjBFNjM6N0ZDNDM6QTg5NjM6NUU2OTI4MDAiLCJ0aW1lc3RhbXAiOjE1ODM5NDk4MzEsImhvc3QiOiJnaXRodWIuY29tIn0=">
 
     <meta name="enabled-features" content="MARKETPLACE_FEATURED_BLOG_POSTS,MARKETPLACE_INVOICED_BILLING,MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS,MARKETPLACE_PENDING_INSTALLATIONS,RELATED_ISSUES,GHE_CLOUD_TRIAL,PAGE_STALE_CHECK">
 
@@ -90,7 +90,7 @@
   <meta name="octolytics-dimension-user_id" content="12715753" /><meta name="octolytics-dimension-user_login" content="Natasha-R" /><meta name="octolytics-dimension-repository_id" content="42651708" /><meta name="octolytics-dimension-repository_nwo" content="Natasha-R/Reproducible-Research-Course-Project-1" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="true" /><meta name="octolytics-dimension-repository_parent_id" content="16709733" /><meta name="octolytics-dimension-repository_parent_nwo" content="rdpeng/RepData_PeerAssessment1" /><meta name="octolytics-dimension-repository_network_root_id" content="16709733" /><meta name="octolytics-dimension-repository_network_root_nwo" content="rdpeng/RepData_PeerAssessment1" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/Natasha-R/Reproducible-Research-Course-Project-1/blob/master/README.md" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/Natasha-R/Reproducible-Research-Course-Project-1/blob/master/PA1_template.md" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -163,7 +163,7 @@
           spellcheck="false"
           autocomplete="off"
           >
-          <input type="hidden" value="joAtHWGT9/FxDXs5kQkolMG/5tc81E4CN8gXvzSnHS1fPzitJOJfaTbkGKeiuo3JueFTE6pH+cV5LqvBOcw0UQ==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+          <input type="hidden" value="X0XXoEHL8Rh33d0DGx7U1+Pn4h8vT44PGqsZCGIE3KKO+sIQBLpZgDA0vp0orXGKm7lX27ncOchUTaV2b2/13g==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
           <input type="hidden" class="js-site-search-type-field" name="type" >
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
@@ -314,7 +314,7 @@
       <img class="avatar" height="20" width="20" alt="@akshitkashyap" src="https://avatars2.githubusercontent.com/u/60666183?s=60&amp;v=4" />
       akshitkashyap
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="L2M9e5N3j//S03Xih1YSO8jh8saO0DdA5adRYRY9NILEhclPHL4L/LFJO03pCWR6AWWo/2yB4H21v6FJ6RGSFA==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="6A91vVT4wyno0sPnZ4C9b7LRe9d/q61M79hBYEm0us0D6YGJ2zFHKotIjUgJ38sue1Uh7p36enG/wLFItpgcWw==" />
       <button type="submit" class="Header-link mr-0 mr-lg-3 py-2 py-lg-0 border-top border-lg-top-0 border-white-fade-15 d-lg-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
         <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 9V7H8V5h4V3l4 3-4 3zm-2 3H6V3L2 1h8v3h1V1c0-.55-.45-1-1-1H1C.45 0 0 .45 0 1v11.38c0 .39.22.73.55.91L6 16.01V13h4c.55 0 1-.45 1-1V8h-1v4z"/></svg>
         Sign out
@@ -404,7 +404,7 @@
   " data-team-hovercards-enabled>
   <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
     <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit "
-      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:12715753,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:60666183,&quot;originating_url&quot;:&quot;https://github.com/Natasha-R/Reproducible-Research-Course-Project-1/blob/master/README.md&quot;}}" data-hydro-click-hmac="eb879c995647082906d44e221e09a1a6391ba785f5c17b4ed6685517f3f5773a">
+      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:12715753,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:60666183,&quot;originating_url&quot;:&quot;https://github.com/Natasha-R/Reproducible-Research-Course-Project-1/blob/master/PA1_template.md&quot;}}" data-hydro-click-hmac="9aca094344f49b81fb80e4ad6ea0412fedf18bdf8ca99696a33535e6e03af3e6">
       <div class="d-flex">
         <div class="f6 lh-condensed user-status-header
           d-inline-block v-align-middle
@@ -431,7 +431,7 @@
       </div>
     </summary>
     <details-dialog class="details-dialog rounded-1 anim-fade-in fast Box Box--overlay" role="dialog" tabindex="-1">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="3rDuinGJ+u4sBvI7ORg8/y/pcc0EV0/2h5MLpxbyJkox7hc2Hucyu1vBPTRPm6CVi6iNXNnmcb3AitIiQV7CGw==" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="hBmF3E/SHd9Zupw1RZP0AHfqR5s3v2WUwtMp+b+VnF9rR3xgILzVii59UzozEGhq06u7CuoOW9+FyvB86Dl4Dg==" />
         <div class="Box-header bg-gray border-bottom p-3">
           <button class="Box-btn-octicon js-toggle-user-status-edit btn-octicon float-right" type="reset" aria-label="Close dialog" data-close-dialog>
             <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
@@ -549,17 +549,17 @@
       </li>
       <li class="dropdown-divider" role="none"></li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-03-12T00:04:12+05:30">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-03-12T00:03:51+05:30">
             in 30 minutes
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-03-12T00:34:12+05:30">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-03-12T00:33:51+05:30">
             in 1 hour
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-03-12T03:34:12+05:30">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-03-12T03:33:51+05:30">
             in 4 hours
           </button>
         </li>
@@ -617,10 +617,10 @@
     class="dropdown-item btn-link"
     role="menuitem"
     data-feature-preview-trigger-url="/users/akshitkashyap/feature_previews"
-    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;originating_url&quot;:&quot;https://github.com/Natasha-R/Reproducible-Research-Course-Project-1/blob/master/README.md&quot;,&quot;user_id&quot;:60666183}}"
-    data-feature-preview-close-hmac="ea0c8a7b13913d7a50b75e392696f5fd31ac6722057b9ad29d0b6b9a11692c82"
-    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/Natasha-R/Reproducible-Research-Course-Project-1/blob/master/README.md&quot;,&quot;user_id&quot;:60666183}}"
-    data-hydro-click-hmac="a7fb4639e90f525d19e9b61b7b8e345274ac10e6e0769b4ca28a9f429f69350f"
+    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;originating_url&quot;:&quot;https://github.com/Natasha-R/Reproducible-Research-Course-Project-1/blob/master/PA1_template.md&quot;,&quot;user_id&quot;:60666183}}"
+    data-feature-preview-close-hmac="1f069874440c62a67435841ef8ba8b11d2c52449fd66ec31cc63c207dd15699f"
+    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/Natasha-R/Reproducible-Research-Course-Project-1/blob/master/PA1_template.md&quot;,&quot;user_id&quot;:60666183}}"
+    data-hydro-click-hmac="7a951ae2991c144d0e24b935ca5db4746c6a8aeb82da16bd64bcb2648b0bd19c"
   >
     Feature preview
   </button>
@@ -629,12 +629,12 @@
 
     <a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a>
     <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="+NFHZI83H3rPAhJF3Nuwx3H3kirC+7ICPzLrJ5dmxugTN7NQAP6beayYXOqyhMaGuHPIEyCqZT9vKhsPaEpgfg==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="/wtyUHdIyR5qOq3z6zL9d72Uyh105A8XZ+FYqpEuD8cU7YZk+IFNHQmg41yFbYs2dBCQJJa12Co3+aiCbgKpUQ==" />
       
       <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
         Sign out
       </button>
-      <input type="text" name="required_field_09d7" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1583949852250" class="form-control" /><input type="hidden" name="timestamp_secret" value="0bb087418260ca11811e0708cd535aace8e0b8045598323142eb5dd714f244bd" class="form-control" />
+      <input type="text" name="required_field_32dd" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1583949831400" class="form-control" /><input type="hidden" name="timestamp_secret" value="986967d8b9a29041284842cf493a1f51f7211c71225a5f13583cbf63ea0ba46d" class="form-control" />
 </form>  </details-menu>
 </details>
 
@@ -708,10 +708,10 @@
 
   <li>
     
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="pbhogxzhnufkV1TKOpW59XCchKnDGJvCWZ9jWDob3viHG+rDMuKHXnuA8lrcAGFRDf0Go98PXmWPGFSlbow+LQ==" />      <input type="hidden" name="repository_id" value="42651708">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="EQo9gIFOHjb2fTMpFXj1+PQKYQM2hnQLusNe62ZSCuczqb/Ar00Hj2mqlbnz7S1ciWvjCSqRsaxsRGkWMsXqMg==" />      <input type="hidden" name="repository_id" value="42651708">
 
       <details class="details-reset details-overlay select-menu float-left">
-        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:42651708,&quot;originating_url&quot;:&quot;https://github.com/Natasha-R/Reproducible-Research-Course-Project-1/blob/master/README.md&quot;,&quot;user_id&quot;:60666183}}" data-hydro-click-hmac="071475f0cfdd390eec63be9a3896a6203804c4d0366aadb273a33244739d049d" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
+        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:42651708,&quot;originating_url&quot;:&quot;https://github.com/Natasha-R/Reproducible-Research-Course-Project-1/blob/master/PA1_template.md&quot;,&quot;user_id&quot;:60666183}}" data-hydro-click-hmac="fd1f713c9eee96d1a9b8068fb1e22576a2a37f6c4d8811657615c7f8caf641ec" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
               <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"/></svg>
               Watch
           </span>
@@ -782,9 +782,9 @@
 
   <li>
       <div class="js-toggler-container js-social-container starring-container ">
-    <form class="starred js-social-form" action="/Natasha-R/Reproducible-Research-Course-Project-1/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="1KU31P/kehWZ4JyyikAKEiMZHNbcc5j1TyrKln7hEt0ZJF+LGVOoc+YQCIXw3aSr5Jxjpa3kKdgkvrp5+KJaEA==" />
+    <form class="starred js-social-form" action="/Natasha-R/Reproducible-Research-Course-Project-1/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="kRgHqftWA7zZDmKFERCwtV3cXF8ufCCgDWWqocBHMlNcmW/2HeHR2qb+9rJrjR4MmlkjLF/rkY1m8dpORgR6ng==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar Natasha-R/Reproducible-Research-Course-Project-1" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:42651708,&quot;originating_url&quot;:&quot;https://github.com/Natasha-R/Reproducible-Research-Course-Project-1/blob/master/README.md&quot;,&quot;user_id&quot;:60666183}}" data-hydro-click-hmac="354040f3fc961c8ad778b864f1995ccacfb6056eb1759c6235a2d2c7733373e6" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar Natasha-R/Reproducible-Research-Course-Project-1" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:42651708,&quot;originating_url&quot;:&quot;https://github.com/Natasha-R/Reproducible-Research-Course-Project-1/blob/master/PA1_template.md&quot;,&quot;user_id&quot;:60666183}}" data-hydro-click-hmac="ae60ee2edeb2499864c6c236b673a1dbbbe4582795fd0ac0b976d18810174ebc" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
         Unstar
 </button>        <a class="social-count js-social-count" href="/Natasha-R/Reproducible-Research-Course-Project-1/stargazers"
@@ -792,9 +792,9 @@
            0
         </a>
 </form>
-    <form class="unstarred js-social-form" action="/Natasha-R/Reproducible-Research-Course-Project-1/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="42UjmK8r3F6FtEZn4HVeyxi5aq+CZBwuZ70RIFGSSvH/N/SCXiKMhAqTjritS7auQQkkCjLtDKl8tK1qq/zw1A==" />
+    <form class="unstarred js-social-form" action="/Natasha-R/Reproducible-Research-Course-Project-1/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="j/E04qoxF2LolYuOuz5IOiZ11feaUjYyHngR8s24XWCTo+P4WzhHuGeyQ1H2AKBff8WbUirbJrUFca24N9bnRQ==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star Natasha-R/Reproducible-Research-Course-Project-1" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:42651708,&quot;originating_url&quot;:&quot;https://github.com/Natasha-R/Reproducible-Research-Course-Project-1/blob/master/README.md&quot;,&quot;user_id&quot;:60666183}}" data-hydro-click-hmac="7c23385271fd3229cf539a103e5a117a163d28597f335e350154152c470c87b1" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star Natasha-R/Reproducible-Research-Course-Project-1" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:42651708,&quot;originating_url&quot;:&quot;https://github.com/Natasha-R/Reproducible-Research-Course-Project-1/blob/master/PA1_template.md&quot;,&quot;user_id&quot;:60666183}}" data-hydro-click-hmac="31a2bb4b95568bbd52e75fe089dbdc3cd3d90df2f786ea473a578b8568df2aa6" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
 
         Star
 </button>        <a class="social-count js-social-count" href="/Natasha-R/Reproducible-Research-Course-Project-1/stargazers"
@@ -806,8 +806,8 @@
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/Natasha-R/Reproducible-Research-Course-Project-1/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="jxC1UnLaJ+kxn4cg6uhX20LvHa3c4I4/CrN9Xpoo4//huRzdVmaYlgdE7bKbSJh6hKmC4xB3S/votksmAL9Cmg==" />
-            <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:42651708,&quot;originating_url&quot;:&quot;https://github.com/Natasha-R/Reproducible-Research-Course-Project-1/blob/master/README.md&quot;,&quot;user_id&quot;:60666183}}" data-hydro-click-hmac="fe28141d6d3e2cf86e1666748d6da1fd4519203456e542bbba1aee81bbee0c97" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of Natasha-R/Reproducible-Research-Course-Project-1 to your account" aria-label="Fork your own copy of Natasha-R/Reproducible-Research-Course-Project-1 to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/Natasha-R/Reproducible-Research-Course-Project-1/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="uWIwrg68YKaDUSVjJo7AYN1oYbBB0ZQAytUiwSjkzo3Xy5khKgDf2bWKT/FXLg/BGy7+/o1GUcQo0BS5snNv6A==" />
+            <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:42651708,&quot;originating_url&quot;:&quot;https://github.com/Natasha-R/Reproducible-Research-Course-Project-1/blob/master/PA1_template.md&quot;,&quot;user_id&quot;:60666183}}" data-hydro-click-hmac="9374a73939ab69f3503d0914bd3560ee187f0db2dca14a6e6ef8fd3005f8c079" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of Natasha-R/Reproducible-Research-Course-Project-1 to your account" aria-label="Fork your own copy of Natasha-R/Reproducible-Research-Course-Project-1 to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
               Fork
 </button></form>
     <a href="/Natasha-R/Reproducible-Research-Course-Project-1/network/members" class="social-count"
@@ -937,9 +937,9 @@
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/Natasha-R/Reproducible-Research-Course-Project-1/blob/f11bc1b49a95abc49658650d99d3c5a7cae7a87a/README.md">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/Natasha-R/Reproducible-Research-Course-Project-1/blob/f11bc1b49a95abc49658650d99d3c5a7cae7a87a/PA1_template.md">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v22:65f06660617dee52ea68af17d0c34e1d -->
+    <!-- blob contrib key: blob_contributors:v22:433e7fc8300fdbcd45d1d9f6d5e6dadb -->
     
 
     <div class="d-flex flex-items-start flex-shrink-0 flex-column flex-md-row pb-3">
@@ -954,7 +954,7 @@
     <span class="dropdown-caret"></span>
   </summary>
 
-  <details-menu class="SelectMenu SelectMenu--hasFilter" src="/Natasha-R/Reproducible-Research-Course-Project-1/refs/master/README.md?source_action=show&amp;source_controller=blob" preload>
+  <details-menu class="SelectMenu SelectMenu--hasFilter" src="/Natasha-R/Reproducible-Research-Course-Project-1/refs/master/PA1_template.md?source_action=show&amp;source_controller=blob" preload>
     <div class="SelectMenu-modal">
       <include-fragment class="SelectMenu-loading" aria-label="Menu is loading">
         <svg class="octicon octicon-octoface anim-pulse" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"/></svg>
@@ -970,13 +970,13 @@
                 data-hotkey="t">
             Find file
           </a>
-          <clipboard-copy value="README.md" class="btn btn-sm BtnGroup-item">
+          <clipboard-copy value="PA1_template.md" class="btn btn-sm BtnGroup-item">
             Copy path
           </clipboard-copy>
         </div>
       </span>
       <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal flex-md-self-center ml-md-2 mr-md-3 my-2 my-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/Natasha-R/Reproducible-Research-Course-Project-1"><span>Reproducible-Research-Course-Project-1</span></a></span></span><span class="separator">/</span><strong class="final-path">README.md</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/Natasha-R/Reproducible-Research-Course-Project-1"><span>Reproducible-Research-Course-Project-1</span></a></span></span><span class="separator">/</span><strong class="final-path">PA1_template.md</strong>
       </h2>
 
       <div class="BtnGroup flex-shrink-0 d-none d-md-inline-block">
@@ -986,7 +986,7 @@
               data-hotkey="t">
           Find file
         </a>
-        <clipboard-copy value="README.md" class="btn btn-sm BtnGroup-item">
+        <clipboard-copy value="PA1_template.md" class="btn btn-sm BtnGroup-item">
           Copy path
         </clipboard-copy>
       </div>
@@ -996,57 +996,16 @@
 
 
 
-    
-  <div class="Box Box--condensed d-flex flex-column flex-shrink-0">
-      <div class="Box-body d-flex flex-justify-between bg-blue-light flex-column flex-md-row flex-items-start flex-md-items-center">
-        <span class="pr-md-4 f6">
-          <a rel="author" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/users/Natasha-R/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/Natasha-R"><img class="avatar" src="https://avatars0.githubusercontent.com/u/12715753?s=40&amp;v=4" width="20" height="20" alt="@Natasha-R" /></a>
-          <a class="text-bold link-gray-dark lh-default v-align-middle" rel="author" data-hovercard-type="user" data-hovercard-url="/users/Natasha-R/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/Natasha-R">Natasha-R</a>
-            <span class="lh-default v-align-middle">
-              <a data-pjax="true" title="README fix" class="link-gray" href="/Natasha-R/Reproducible-Research-Course-Project-1/commit/df756f72eaa8f0a78663d738a2b7816315345d84">README fix</a>
-            </span>
-        </span>
-        <span class="d-inline-block flex-shrink-0 v-align-bottom f6 mt-2 mt-md-0">
-          <a class="pr-2 text-mono link-gray" href="/Natasha-R/Reproducible-Research-Course-Project-1/commit/df756f72eaa8f0a78663d738a2b7816315345d84" data-pjax>df756f7</a>
-          <relative-time datetime="2015-09-20T16:41:25Z" class="no-wrap">Sep 20, 2015</relative-time>
-        </span>
+    <include-fragment src="/Natasha-R/Reproducible-Research-Course-Project-1/contributors/master/PA1_template.md" class="Box Box--condensed commit-loader">
+      <div class="Box-body bg-blue-light f6">
+        Fetching contributors&hellip;
       </div>
 
-    <div class="Box-body d-flex flex-items-center flex-auto f6 border-bottom-0 flex-wrap" >
-      <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark float-left mr-2" id="blob_contributors_box">
-        <summary class="btn-link">
-          <span><strong>4</strong> contributors</span>
-        </summary>
-        <details-dialog
-          class="Box Box--overlay d-flex flex-column anim-fade-in fast"
-          aria-label="Users who have contributed to this file"
-          src="/Natasha-R/Reproducible-Research-Course-Project-1/contributors-list/master/README.md" preload>
-          <div class="Box-header">
-            <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
-              <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"/></svg>
-            </button>
-            <h3 class="Box-title">
-              Users who have contributed to this file
-            </h3>
-          </div>
-          <include-fragment class="octocat-spinner my-3" aria-label="Loading..."></include-fragment>
-        </details-dialog>
-      </details>
-        <span class="">
-    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/rdpeng/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/Natasha-R/Reproducible-Research-Course-Project-1/commits/master/README.md?author=rdpeng">
-      <img class="avatar mr-1" src="https://avatars1.githubusercontent.com/u/9612?s=40&amp;v=4" width="20" height="20" alt="@rdpeng" /> 
-</a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/Natasha-R/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/Natasha-R/Reproducible-Research-Course-Project-1/commits/master/README.md?author=Natasha-R">
-      <img class="avatar mr-1" src="https://avatars0.githubusercontent.com/u/12715753?s=40&amp;v=4" width="20" height="20" alt="@Natasha-R" /> 
-</a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/Ripley6811/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/Natasha-R/Reproducible-Research-Course-Project-1/commits/master/README.md?author=Ripley6811">
-      <img class="avatar mr-1" src="https://avatars1.githubusercontent.com/u/1886005?s=40&amp;v=4" width="20" height="20" alt="@Ripley6811" /> 
-</a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/kiistala/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/Natasha-R/Reproducible-Research-Course-Project-1/commits/master/README.md?author=kiistala">
-      <img class="avatar mr-1" src="https://avatars2.githubusercontent.com/u/2706854?s=40&amp;v=4" width="20" height="20" alt="@kiistala" /> 
-</a>
-</span>
-
-    </div>
-  </div>
-
+      <div class="Box-body d-flex flex-items-center" >
+        <img alt="" class="loader-loading mr-2" src="https://github.githubassets.com/images/spinners/octocat-spinner-32-EAF2F5.gif" width="16" height="16" />
+        <span class="text-red h6 loader-error">Cannot retrieve contributors at this time</span>
+      </div>
+</include-fragment>
 
 
 
@@ -1057,17 +1016,17 @@
 <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 
-      181 lines (111 sloc)
+      387 lines (276 sloc)
       <span class="file-info-divider"></span>
-    8.49 KB
+    13.9 KB
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/Natasha-R/Reproducible-Research-Course-Project-1/raw/master/README.md">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/Natasha-R/Reproducible-Research-Course-Project-1/blame/master/README.md">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/Natasha-R/Reproducible-Research-Course-Project-1/commits/master/README.md">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/Natasha-R/Reproducible-Research-Course-Project-1/raw/master/PA1_template.md">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/Natasha-R/Reproducible-Research-Course-Project-1/blame/master/PA1_template.md">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/Natasha-R/Reproducible-Research-Course-Project-1/commits/master/PA1_template.md">History</a>
     </div>
 
 
@@ -1080,13 +1039,13 @@
               <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
           </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/Natasha-R/Reproducible-Research-Course-Project-1/edit/master/README.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Idllu3OXhDwGhlg6PShuyG0t2B9ZhRN4OJQsWF10O6/uSvtMsOglbuw92krIow8PQlVJ/pZwPLxOdDCwsuS2Vg==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/Natasha-R/Reproducible-Research-Course-Project-1/edit/master/PA1_template.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="lO5EGTr3z02II5EnUFtRrjo0PtnP09tnGMGE1LY+dZxPTUdPtz1YIojO5bmwyAGrkm8wXQGG1hFtMDplmwkZsg==" />
             <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
               aria-label="Edit the file in your fork of this project" data-hotkey="e" data-disable-with>
               <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 011.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
             </button>
 </form>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/Natasha-R/Reproducible-Research-Course-Project-1/delete/master/README.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="g26YGGTt8EAXf2uX2xVgT7+omc7RFDl04q1CnUW+elUN3Dw4xQK+NdiISg3mjm3m0WOwFHVj+dUBif/T1zJa5Q==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/Natasha-R/Reproducible-Research-Course-Project-1/delete/master/PA1_template.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="EwFW5g/50ESqXp6fZfEZZRhV0WckMHphLZrq74FzSrCPUVYuzKPSd++AiytD5B9vEPAhWJRT+/bBuQc4y9D3vA==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Delete the file in your fork of this project" data-disable-with>
               <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -1100,182 +1059,255 @@
 
       
   <div id="readme" class="Box-body readme blob js-code-block-container">
-    <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><h1><a id="user-content-reproducible-research-course-project-1-submission" class="anchor" aria-hidden="true" href="#reproducible-research-course-project-1-submission"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>"Reproducible Research" Course Project 1 Submission</h1>
-<p>This is my submission for the Coursera assignment, for the Reproducible Research course.</p>
-<p>The files in this repo are:</p>
-<ul>
-<li>The R Markdown document, containing the R code and written explanations, can be found in the file <a href="/Natasha-R/Reproducible-Research-Course-Project-1/blob/master/PA1_template.Rmd">PA1_template.Rmd</a>. The same document, in Markdown format, can be found at <a href="/Natasha-R/Reproducible-Research-Course-Project-1/blob/master/PA1_template.md">PA1_template.md</a>, and the HTML version at <a href="/Natasha-R/Reproducible-Research-Course-Project-1/blob/master/PA1_template.html">PA1_template.html</a>.</li>
-<li>The <a href="/Natasha-R/Reproducible-Research-Course-Project-1/blob/master/figure">“figure”</a> folder contains all of the graphs created in the markdown document.</li>
-<li>The dataset used within the assignment has the file name <a href="/Natasha-R/Reproducible-Research-Course-Project-1/blob/master/activity.zip">“activity.zip”</a>.</li>
-<li>Image files for rendering the html version of the markdown file: <a href="/Natasha-R/Reproducible-Research-Course-Project-1/blob/master/PA1_template_files">PA1_template_files</a>.</li>
-</ul>
-<p>Below is a copy of the original README file, from the original repo, where information on both the raw data set and the course assignment is detailed.</p>
-<h2><a id="user-content-introduction" class="anchor" aria-hidden="true" href="#introduction"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Introduction</h2>
-<p>It is now possible to collect a large amount of data about personal
-movement using activity monitoring devices such as a
-<a href="http://www.fitbit.com" rel="nofollow">Fitbit</a>, <a href="http://www.nike.com/us/en_us/c/nikeplus-fuelband" rel="nofollow">Nike
-Fuelband</a>, or
-<a href="https://jawbone.com/up" rel="nofollow">Jawbone Up</a>. These type of devices are part of
-the "quantified self" movement -- a group of enthusiasts who take
-measurements about themselves regularly to improve their health, to
-find patterns in their behavior, or because they are tech geeks. But
-these data remain under-utilized both because the raw data are hard to
-obtain and there is a lack of statistical methods and software for
-processing and interpreting the data.</p>
-<p>This assignment makes use of data from a personal activity monitoring
-device. This device collects data at 5 minute intervals through out the
-day. The data consists of two months of data from an anonymous
-individual collected during the months of October and November, 2012
-and include the number of steps taken in 5 minute intervals each day.</p>
-<h2><a id="user-content-data" class="anchor" aria-hidden="true" href="#data"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Data</h2>
-<p>The data for this assignment can be downloaded from the course web
-site:</p>
-<ul>
-<li>Dataset: <a href="https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip" rel="nofollow">Activity monitoring data</a> [52K]</li>
-</ul>
-<p>The variables included in this dataset are:</p>
-<ul>
-<li>
-<p><strong>steps</strong>: Number of steps taking in a 5-minute interval (missing
-values are coded as <code>NA</code>)</p>
-</li>
-<li>
-<p><strong>date</strong>: The date on which the measurement was taken in YYYY-MM-DD
-format</p>
-</li>
-<li>
-<p><strong>interval</strong>: Identifier for the 5-minute interval in which
-measurement was taken</p>
-</li>
-</ul>
-<p>The dataset is stored in a comma-separated-value (CSV) file and there
-are a total of 17,568 observations in this
-dataset.</p>
-<h2><a id="user-content-assignment" class="anchor" aria-hidden="true" href="#assignment"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Assignment</h2>
-<p>This assignment will be described in multiple parts. You will need to
-write a report that answers the questions detailed below. Ultimately,
-you will need to complete the entire assignment in a <strong>single R
-markdown</strong> document that can be processed by <strong>knitr</strong> and be
-transformed into an HTML file.</p>
-<p>Throughout your report make sure you always include the code that you
-used to generate the output you present. When writing code chunks in
-the R markdown document, always use <code>echo = TRUE</code> so that someone else
-will be able to read the code. <strong>This assignment will be evaluated via
-peer assessment so it is essential that your peer evaluators be able
-to review the code for your analysis</strong>.</p>
-<p>For the plotting aspects of this assignment, feel free to use any
-plotting system in R (i.e., base, lattice, ggplot2)</p>
-<p>Fork/clone the <a href="http://github.com/rdpeng/RepData_PeerAssessment1">GitHub repository created for this
-assignment</a>. You
-will submit this assignment by pushing your completed files into your
-forked repository on GitHub. The assignment submission will consist of
-the URL to your GitHub repository and the SHA-1 commit ID for your
-repository state.</p>
-<p>NOTE: The GitHub repository also contains the dataset for the
-assignment so you do not have to download the data separately.</p>
-<h3><a id="user-content-loading-and-preprocessing-the-data" class="anchor" aria-hidden="true" href="#loading-and-preprocessing-the-data"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Loading and preprocessing the data</h3>
-<p>Show any code that is needed to</p>
-<ol>
-<li>
-<p>Load the data (i.e. <code>read.csv()</code>)</p>
-</li>
-<li>
-<p>Process/transform the data (if necessary) into a format suitable for your analysis</p>
-</li>
-</ol>
-<h3><a id="user-content-what-is-mean-total-number-of-steps-taken-per-day" class="anchor" aria-hidden="true" href="#what-is-mean-total-number-of-steps-taken-per-day"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>What is mean total number of steps taken per day?</h3>
-<p>For this part of the assignment, you can ignore the missing values in
-the dataset.</p>
-<ol>
-<li>
-<p>Make a histogram of the total number of steps taken each day</p>
-</li>
-<li>
-<p>Calculate and report the <strong>mean</strong> and <strong>median</strong> total number of steps taken per day</p>
-</li>
-</ol>
-<h3><a id="user-content-what-is-the-average-daily-activity-pattern" class="anchor" aria-hidden="true" href="#what-is-the-average-daily-activity-pattern"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>What is the average daily activity pattern?</h3>
-<ol>
-<li>
-<p>Make a time series plot (i.e. <code>type = "l"</code>) of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all days (y-axis)</p>
-</li>
-<li>
-<p>Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?</p>
-</li>
-</ol>
-<h3><a id="user-content-imputing-missing-values" class="anchor" aria-hidden="true" href="#imputing-missing-values"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Imputing missing values</h3>
-<p>Note that there are a number of days/intervals where there are missing
-values (coded as <code>NA</code>). The presence of missing days may introduce
-bias into some calculations or summaries of the data.</p>
-<ol>
-<li>
-<p>Calculate and report the total number of missing values in the dataset (i.e. the total number of rows with <code>NA</code>s)</p>
-</li>
-<li>
-<p>Devise a strategy for filling in all of the missing values in the dataset. The strategy does not need to be sophisticated. For example, you could use the mean/median for that day, or the mean for that 5-minute interval, etc.</p>
-</li>
-<li>
-<p>Create a new dataset that is equal to the original dataset but with the missing data filled in.</p>
-</li>
-<li>
-<p>Make a histogram of the total number of steps taken each day and Calculate and report the <strong>mean</strong> and <strong>median</strong> total number of steps taken per day. Do these values differ from the estimates from the first part of the assignment? What is the impact of imputing missing data on the estimates of the total daily number of steps?</p>
-</li>
-</ol>
-<h3><a id="user-content-are-there-differences-in-activity-patterns-between-weekdays-and-weekends" class="anchor" aria-hidden="true" href="#are-there-differences-in-activity-patterns-between-weekdays-and-weekends"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Are there differences in activity patterns between weekdays and weekends?</h3>
-<p>For this part the <code>weekdays()</code> function may be of some help here. Use
-the dataset with the filled-in missing values for this part.</p>
-<ol>
-<li>
-<p>Create a new factor variable in the dataset with two levels -- "weekday" and "weekend" indicating whether a given date is a weekday or weekend day.</p>
-</li>
-<li>
-<p>Make a panel plot containing a time series plot (i.e. <code>type = "l"</code>) of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis). The plot should look something like the following, which was created using <strong>simulated data</strong>:</p>
-</li>
-</ol>
-<p><a target="_blank" rel="noopener noreferrer" href="/Natasha-R/Reproducible-Research-Course-Project-1/blob/master/instructions_fig/sample_panelplot.png"><img src="/Natasha-R/Reproducible-Research-Course-Project-1/raw/master/instructions_fig/sample_panelplot.png" alt="Sample panel plot" style="max-width:100%;"></a></p>
-<p><strong>Your plot will look different from the one above</strong> because you will
-be using the activity monitor data. Note that the above plot was made
-using the lattice system but you can make the same version of the plot
-using any plotting system you choose.</p>
-<h2><a id="user-content-submitting-the-assignment" class="anchor" aria-hidden="true" href="#submitting-the-assignment"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Submitting the Assignment</h2>
-<p>To submit the assignment:</p>
-<ol>
-<li>
-<p>Commit your completed <code>PA1_template.Rmd</code> file to the <code>master</code> branch of your git repository (you should already be on the <code>master</code> branch unless you created new ones)</p>
-</li>
-<li>
-<p>Commit your <code>PA1_template.md</code> and <code>PA1_template.html</code> files produced by processing your R markdown file with the <code>knit2html()</code> function in R (from the <strong>knitr</strong> package)</p>
-</li>
-<li>
-<p>If your document has figures included (it should) then they should have been placed in the <code>figure/</code> directory by default (unless you overrode the default). Add and commit the <code>figure/</code> directory to your git repository.</p>
-</li>
-<li>
-<p>Push your <code>master</code> branch to GitHub.</p>
-</li>
-<li>
-<p>Submit the URL to your GitHub repository for this assignment on the course web site.</p>
-</li>
-</ol>
-<p>In addition to submitting the URL for your GitHub repository, you will
-need to submit the 40 character SHA-1 hash (as string of numbers from
-0-9 and letters from a-f) that identifies the repository commit that
-contains the version of the files you want to submit. You can do this
-in GitHub by doing the following:</p>
-<ol>
-<li>
-<p>Go into your GitHub repository web page for this assignment</p>
-</li>
-<li>
-<p>Click on the "?? commits" link where ?? is the number of commits you have in the repository. For example, if you made a total of 10 commits to this repository, the link should say "10 commits".</p>
-</li>
-<li>
-<p>You will see a list of commits that you have made to this repository. The most recent commit is at the very top. If this represents the version of the files you want to submit, then just click the "copy to clipboard" button on the right hand side that should appear when you hover over the SHA-1 hash. Paste this SHA-1 hash into the course web site when you submit your assignment. If you don't want to use the most recent commit, then go down and find the commit you want and copy the SHA-1 hash.</p>
-</li>
-</ol>
-<p>A valid submission will look something like (this is just an <strong>example</strong>!)</p>
-<div class="highlight highlight-source-r"><pre><span class="pl-smi">https</span><span class="pl-k">:</span><span class="pl-k">//</span><span class="pl-smi">github.com</span><span class="pl-k">/</span><span class="pl-smi">rdpeng</span><span class="pl-k">/</span><span class="pl-smi">RepData_PeerAssessment1</span>
+    <article class="markdown-body entry-content p-3 p-md-6" itemprop="text"><table data-table-type="yaml-metadata">
+  <thead>
+  <tr>
+  <th>title</th>
+  <th>output</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td><div>Reproducible Research: Peer Assessment 1</div></td>
+  <td><div><table>
+  <thead>
+  <tr>
+  <th>html_document</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td><div><table>
+  <thead>
+  <tr>
+  <th>keep_md</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td><div>true</div></td>
+  </tr>
+  </tbody>
+</table>
+</div></td>
+  </tr>
+  </tbody>
+</table>
+</div></td>
+  </tr>
+  </tbody>
+</table>
 
-<span class="pl-ii">7c376cc5447f11537f8740af8e07d6facc3d9645</span></pre></div>
+<h2><a id="user-content-introduction" class="anchor" aria-hidden="true" href="#introduction"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Introduction</h2>
+<p>This is an R Markdown document, created for the Coursera course "Reproducible Research", in completion of "Peer Assessment 1". The assignment requires students to write an R markdown document evidencing literate programming, using markdown and R programming techniques. There are 5 primary questions to be answered, dealing with processing and analysing data. The data provided to be worked upon, is called "activity monitoring data".</p>
+<h3><a id="user-content-the-data" class="anchor" aria-hidden="true" href="#the-data"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>The Data</h3>
+<p>The data provided for use, is derived from a study whereupon a single individual wore a "personal activity monitoring device". The study says that:</p>
+<blockquote>
+<p>"[Activity monitoring devices] are part of the “quantified self” movement – a group of enthusiasts who take measurements about themselves regularly to improve their health, to find patterns in their behavior, or because they are tech geeks. But these data remain under-utilized both because the raw data are hard to obtain and there is a lack of statistical methods and software for processing and interpreting the data."</p>
+</blockquote>
+<p>The device used in this particular data set collects data on the number of steps taken by an individual, in 5 minute intervals. Two months of data, October/November 2012 are included within the data set. The variables measured include steps (the number of steps taken), date (the day on which the steps measurement was taken) and interval, (the interval in which the steps measurement was taken.) The data is stored in csv format, with 17,598 observations and the aforementioned 3 variables recorded.</p>
+<h2><a id="user-content-completing-the-assignment" class="anchor" aria-hidden="true" href="#completing-the-assignment"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Completing the Assignment</h2>
+<h3><a id="user-content-question-1-loading-and-preprocessing-the-data" class="anchor" aria-hidden="true" href="#question-1-loading-and-preprocessing-the-data"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Question 1: Loading and preprocessing the data</h3>
+<p>The data must be in the user's current working directory for the code to run correctly. The unzip function extracts the data from the zip file, before it is read into R. The object classes contained within each of the variables are defined, so as to speed up the reading process.</p>
+<div class="highlight highlight-source-r"><pre>unzip(<span class="pl-s"><span class="pl-pds">"</span>activity.zip<span class="pl-pds">"</span></span>)
+<span class="pl-smi">initialData</span> <span class="pl-k">&lt;-</span> read.csv(<span class="pl-s"><span class="pl-pds">"</span>activity.csv<span class="pl-pds">"</span></span>, <span class="pl-v">colClasses</span><span class="pl-k">=</span>c(<span class="pl-s"><span class="pl-pds">"</span>numeric<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>Date<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>numeric<span class="pl-pds">"</span></span>))</pre></div>
+<p>An initial look at the data confirms its dimensions and contents.</p>
+<div class="highlight highlight-source-r"><pre>head(<span class="pl-smi">initialData</span>)</pre></div>
+<pre><code>##   steps       date interval
+## 1    NA 2012-10-01        0
+## 2    NA 2012-10-01        5
+## 3    NA 2012-10-01       10
+## 4    NA 2012-10-01       15
+## 5    NA 2012-10-01       20
+## 6    NA 2012-10-01       25
+</code></pre>
+<div class="highlight highlight-source-r"><pre>str(<span class="pl-smi">initialData</span>)</pre></div>
+<pre><code>## 'data.frame':	17568 obs. of  3 variables:
+##  $ steps   : num  NA NA NA NA NA NA NA NA NA NA ...
+##  $ date    : Date, format: "2012-10-01" "2012-10-01" ...
+##  $ interval: num  0 5 10 15 20 25 30 35 40 45 ...
+</code></pre>
+<h3><a id="user-content-question-2-what-is-mean-total-number-of-steps-taken-per-day" class="anchor" aria-hidden="true" href="#question-2-what-is-mean-total-number-of-steps-taken-per-day"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Question 2: What is mean total number of steps taken per day?</h3>
+<p>The question states any missing values in the data set can be ignored. From using the summary functions previously, it is already known that there are NA values within the steps variable, so these can be removed now.</p>
+<div class="highlight highlight-source-r"><pre><span class="pl-smi">data</span> <span class="pl-k">&lt;-</span> <span class="pl-smi">initialData</span>[<span class="pl-k">!</span>(is.na(<span class="pl-smi">initialData</span><span class="pl-k">$</span><span class="pl-smi">steps</span>)), ]</pre></div>
+<p>To calculate the total number of steps taken per day, the data first needs to be grouped separately for each day, and then the sum of each group calculated. The aggregate function can complete both of these steps, and format the output in a tidy data frame.</p>
+<div class="highlight highlight-source-r"><pre><span class="pl-smi">totalStepsDay</span> <span class="pl-k">&lt;-</span> aggregate(<span class="pl-smi">steps</span> <span class="pl-k">~</span> <span class="pl-smi">date</span>, <span class="pl-smi">data</span>, <span class="pl-smi">sum</span>)
+head(<span class="pl-smi">totalStepsDay</span>)</pre></div>
+<pre><code>##         date steps
+## 1 2012-10-02   126
+## 2 2012-10-03 11352
+## 3 2012-10-04 12116
+## 4 2012-10-05 13294
+## 5 2012-10-06 15420
+## 6 2012-10-07 11015
+</code></pre>
+<p>Creating exploratory plots are useful to be able to quickly see a view of all of the data, and pick out any potential patterns. Here, a histogram is created to indicate the frequency of total steps taken each day.</p>
+<div class="highlight highlight-source-r"><pre><span class="pl-smi">paletteBlue</span> <span class="pl-k">&lt;-</span> colorRampPalette(c(<span class="pl-s"><span class="pl-pds">"</span>skyblue<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>darkblue<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>skyblue<span class="pl-pds">"</span></span>))
+hist(<span class="pl-smi">totalStepsDay</span><span class="pl-k">$</span><span class="pl-smi">steps</span>, <span class="pl-v">breaks</span><span class="pl-k">=</span><span class="pl-c1">20</span>, <span class="pl-v">xlab</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>Number of Steps Taken<span class="pl-pds">"</span></span>, 
+     <span class="pl-v">main</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>Histogram of the Total Number of Steps Taken per Day<span class="pl-pds">"</span></span>,
+     <span class="pl-v">col</span><span class="pl-k">=</span>paletteBlue(<span class="pl-c1">22</span>), <span class="pl-v">family</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>serif<span class="pl-pds">"</span></span>)</pre></div>
+<p><a target="_blank" rel="noopener noreferrer" href="/Natasha-R/Reproducible-Research-Course-Project-1/blob/master/figure/unnamed-chunk-5-1.png"><img src="/Natasha-R/Reproducible-Research-Course-Project-1/raw/master/figure/unnamed-chunk-5-1.png" alt="plot of chunk unnamed-chunk-5" style="max-width:100%;"></a></p>
+<p>Finally, the summarise function can calculate the mean and median values of the total number of steps taken per day.</p>
+<div class="highlight highlight-source-r"><pre>library(<span class="pl-smi">dplyr</span>)
+<span class="pl-smi">totalStepsSummary</span> <span class="pl-k">&lt;-</span> summarise(<span class="pl-smi">totalStepsDay</span>, <span class="pl-v">meanOfTotalSteps</span><span class="pl-k">=</span>mean(<span class="pl-smi">totalStepsDay</span><span class="pl-k">$</span><span class="pl-smi">steps</span>),
+                               <span class="pl-v">medianOfTotalSteps</span><span class="pl-k">=</span>median(<span class="pl-smi">totalStepsDay</span><span class="pl-k">$</span><span class="pl-smi">steps</span>))
+print(<span class="pl-smi">totalStepsSummary</span>)</pre></div>
+<pre><code>##   meanOfTotalSteps medianOfTotalSteps
+## 1         10766.19              10765
+</code></pre>
+<p>Therefore the mean value calculated is <strong>10766.19</strong>, and the median value <strong>10765</strong>.</p>
+<h3><a id="user-content-question-3-what-is-the-average-daily-activity-pattern" class="anchor" aria-hidden="true" href="#question-3-what-is-the-average-daily-activity-pattern"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Question 3: What is the average daily activity pattern?</h3>
+<p>To look at the average daily pattern, we can use another exploratory graph, this time a time series plot. As this plot should look at the average number of steps taken for each interval, (utilising all days), the aggregate function must be used again, to split the data into groups for each interval, and then averaged with the mean function.</p>
+<div class="highlight highlight-source-r"><pre><span class="pl-smi">meanStepsInterval</span> <span class="pl-k">&lt;-</span> aggregate(<span class="pl-smi">steps</span> <span class="pl-k">~</span> <span class="pl-smi">interval</span>, <span class="pl-smi">data</span>, <span class="pl-smi">mean</span>)
+head(<span class="pl-smi">meanStepsInterval</span>)</pre></div>
+<pre><code>##   interval     steps
+## 1        0 1.7169811
+## 2        5 0.3396226
+## 3       10 0.1320755
+## 4       15 0.1509434
+## 5       20 0.0754717
+## 6       25 2.0943396
+</code></pre>
+<p>The base R plotting system is used to create a time series plot, with each interval on the x axis, and the average steps data on the y axis.</p>
+<div class="highlight highlight-source-r"><pre>plot(<span class="pl-v">x</span><span class="pl-k">=</span><span class="pl-smi">meanStepsInterval</span><span class="pl-k">$</span><span class="pl-smi">interval</span>, <span class="pl-v">y</span><span class="pl-k">=</span><span class="pl-smi">meanStepsInterval</span><span class="pl-k">$</span><span class="pl-smi">steps</span>, <span class="pl-v">type</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>l<span class="pl-pds">"</span></span>,
+     <span class="pl-v">main</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>Time Series Plot of Average Steps Taken per Interval<span class="pl-pds">"</span></span>,
+     <span class="pl-v">ylab</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>Number of Steps<span class="pl-pds">"</span></span>, <span class="pl-v">xlab</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>Intervals (in 5 mins)<span class="pl-pds">"</span></span>,
+     <span class="pl-v">col</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>darkblue<span class="pl-pds">"</span></span>, <span class="pl-v">lwd</span><span class="pl-k">=</span><span class="pl-c1">1.5</span>, <span class="pl-v">family</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>serif<span class="pl-pds">"</span></span>)</pre></div>
+<p><a target="_blank" rel="noopener noreferrer" href="/Natasha-R/Reproducible-Research-Course-Project-1/blob/master/figure/unnamed-chunk-8-1.png"><img src="/Natasha-R/Reproducible-Research-Course-Project-1/raw/master/figure/unnamed-chunk-8-1.png" alt="plot of chunk unnamed-chunk-8" style="max-width:100%;"></a></p>
+<p>The last part of this question asks "which five minute interval contains the maximum number of steps?" To answer this the max function can be used, which prints out the maximum value from a numeric vector.</p>
+<div class="highlight highlight-source-r"><pre><span class="pl-smi">meanStepsInterval</span>[grep(max(<span class="pl-smi">meanStepsInterval</span><span class="pl-k">$</span><span class="pl-smi">steps</span>), <span class="pl-smi">meanStepsInterval</span><span class="pl-k">$</span><span class="pl-smi">steps</span>), ]</pre></div>
+<pre><code>##     interval    steps
+## 104      835 206.1698
+</code></pre>
+<p>So the interval with the maximum number of steps is interval <strong>835</strong>.</p>
+<h3><a id="user-content-question-4-imputing-missing-values" class="anchor" aria-hidden="true" href="#question-4-imputing-missing-values"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Question 4: Imputing missing values</h3>
+<p>As the data can be confirmed to contain some NA values as some of the observations:</p>
+<div class="highlight highlight-source-r"><pre>anyNA(<span class="pl-smi">initialData</span>)</pre></div>
+<pre><code>## [1] TRUE
+</code></pre>
+<p>It is necessary to find out whether the NA values are more-so clustered to one area within the data. Looking at each of the variables:</p>
+<div class="highlight highlight-source-r"><pre><span class="pl-k">data.frame</span>(<span class="pl-v">steps</span><span class="pl-k">=</span>sum(is.na(<span class="pl-smi">initialData</span><span class="pl-k">$</span><span class="pl-smi">steps</span>)), 
+           <span class="pl-v">interval</span><span class="pl-k">=</span>sum(is.na(<span class="pl-smi">initialData</span><span class="pl-k">$</span><span class="pl-smi">interval</span>)), 
+           <span class="pl-v">date</span><span class="pl-k">=</span>sum(is.na(<span class="pl-smi">initialData</span><span class="pl-k">$</span><span class="pl-smi">date</span>)))</pre></div>
+<pre><code>##   steps interval date
+## 1  2304        0    0
+</code></pre>
+<p>It can be seen that all 2304 NA values are contained within the steps variable.</p>
+<p>Therefore an imputing strategy must be devised to replace all of these missing values with usable numeric measurements. To do so, I decided to replace each missing value with the mean value for the same interval, averaged across all days.</p>
+<p>I used a for loop to achieve this, first testing if each observation was an NA value, and if so, replacing it with the mean average for that interval, (as calculated in a previous question).</p>
+<div class="highlight highlight-source-r"><pre><span class="pl-smi">imputedData</span> <span class="pl-k">&lt;-</span> <span class="pl-smi">initialData</span>
+<span class="pl-k">for</span>(<span class="pl-smi">x</span> <span class="pl-k">in</span> <span class="pl-c1">1</span><span class="pl-k">:</span><span class="pl-c1">17568</span>) {
+    <span class="pl-k">if</span>(is.na(<span class="pl-smi">imputedData</span>[<span class="pl-smi">x</span>, <span class="pl-c1">1</span>])<span class="pl-k">==</span><span class="pl-c1">TRUE</span>) {
+        <span class="pl-smi">imputedData</span>[<span class="pl-smi">x</span>, <span class="pl-c1">1</span>] <span class="pl-k">&lt;-</span> <span class="pl-smi">meanStepsInterval</span>[<span class="pl-smi">meanStepsInterval</span><span class="pl-k">$</span><span class="pl-smi">interval</span> <span class="pl-k">%in%</span> <span class="pl-smi">imputedData</span>[<span class="pl-smi">x</span>, <span class="pl-c1">3</span>], <span class="pl-c1">2</span>]
+    }
+}
+head(<span class="pl-smi">imputedData</span>)</pre></div>
+<pre><code>##       steps       date interval
+## 1 1.7169811 2012-10-01        0
+## 2 0.3396226 2012-10-01        5
+## 3 0.1320755 2012-10-01       10
+## 4 0.1509434 2012-10-01       15
+## 5 0.0754717 2012-10-01       20
+## 6 2.0943396 2012-10-01       25
+</code></pre>
+<p>Now that the NA values have been replaced, a histogram from the imputed data can be created. This histogram should indicate the frequency of the total number of steps taken per day. Therefore again, the data must be grouped and "summed" by day.</p>
+<div class="highlight highlight-source-r"><pre><span class="pl-smi">imputedTotalStepsDay</span> <span class="pl-k">&lt;-</span> aggregate(<span class="pl-smi">steps</span> <span class="pl-k">~</span> <span class="pl-smi">date</span>, <span class="pl-smi">imputedData</span>, <span class="pl-smi">sum</span>)
+head(<span class="pl-smi">imputedTotalStepsDay</span>)</pre></div>
+<pre><code>##         date    steps
+## 1 2012-10-01 10766.19
+## 2 2012-10-02   126.00
+## 3 2012-10-03 11352.00
+## 4 2012-10-04 12116.00
+## 5 2012-10-05 13294.00
+## 6 2012-10-06 15420.00
+</code></pre>
+<p>Creating the histogram:</p>
+<div class="highlight highlight-source-r"><pre><span class="pl-smi">paletteRed</span> <span class="pl-k">&lt;-</span> colorRampPalette(c(<span class="pl-s"><span class="pl-pds">"</span>deeppink<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>darkred<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>deeppink<span class="pl-pds">"</span></span>))
+hist(<span class="pl-smi">imputedTotalStepsDay</span><span class="pl-k">$</span><span class="pl-smi">steps</span>, <span class="pl-v">breaks</span><span class="pl-k">=</span><span class="pl-c1">20</span>, <span class="pl-v">xlab</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>Number of Steps Taken<span class="pl-pds">"</span></span>, 
+     <span class="pl-v">main</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>Histogram of Total Number of Steps Taken per Day (With Imputed Values)<span class="pl-pds">"</span></span>,
+     <span class="pl-v">col</span><span class="pl-k">=</span>paletteRed(<span class="pl-c1">22</span>), <span class="pl-v">family</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>serif<span class="pl-pds">"</span></span>)</pre></div>
+<p><a target="_blank" rel="noopener noreferrer" href="/Natasha-R/Reproducible-Research-Course-Project-1/blob/master/figure/unnamed-chunk-14-1.png"><img src="/Natasha-R/Reproducible-Research-Course-Project-1/raw/master/figure/unnamed-chunk-14-1.png" alt="plot of chunk unnamed-chunk-14" style="max-width:100%;"></a></p>
+<p>The question then asks for calculation of the mean and median total number of steps taken per day, which can be calculated using the summarise function.</p>
+<div class="highlight highlight-source-r"><pre><span class="pl-smi">imputedStepsSummary</span> <span class="pl-k">&lt;-</span> summarise(<span class="pl-smi">imputedTotalStepsDay</span>, 
+                                 <span class="pl-v">meanOfTotalSteps</span><span class="pl-k">=</span>mean(<span class="pl-smi">imputedTotalStepsDay</span><span class="pl-k">$</span><span class="pl-smi">steps</span>), 
+                                 <span class="pl-v">medianOfTotalSteps</span><span class="pl-k">=</span>median(<span class="pl-smi">imputedTotalStepsDay</span><span class="pl-k">$</span><span class="pl-smi">steps</span>))  
+print(<span class="pl-smi">imputedStepsSummary</span>)</pre></div>
+<pre><code>##   meanOfTotalSteps medianOfTotalSteps
+## 1         10766.19           10766.19
+</code></pre>
+<p>This a similar calculation to the one completed at the start of the assignment, (without the imputed values,) and thus they can be compared.</p>
+<div class="highlight highlight-source-r"><pre>rbind(<span class="pl-smi">totalStepsSummary</span>, <span class="pl-smi">imputedTotalStepsSummary</span>)</pre></div>
+<pre><code>##   meanOfTotalSteps medianOfTotalSteps
+## 1         10766.19           10765.00
+## 2         10766.19           10766.19
+</code></pre>
+<p>The values of the two data sets are very similar, if not exactly the same, due to the use of averaging functions when imputing the NA measurements. The mean values are the same, at <strong>10766.19</strong> steps, while the median value is slightly larger for the imputed data set, at <strong>10766.19</strong> steps, rather than <strong>10765</strong> steps.</p>
+<p>If histograms of the two data sets (imputed and non-imputed) are compared:</p>
+<div class="highlight highlight-source-r"><pre>par(<span class="pl-v">mfrow</span> <span class="pl-k">=</span> c(<span class="pl-c1">1</span>, <span class="pl-c1">2</span>))
+
+hist(<span class="pl-smi">totalStepsDay</span><span class="pl-k">$</span><span class="pl-smi">steps</span>, <span class="pl-v">breaks</span><span class="pl-k">=</span><span class="pl-c1">20</span>, <span class="pl-v">xlab</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>Number of Steps Taken<span class="pl-pds">"</span></span>, 
+     <span class="pl-v">col</span><span class="pl-k">=</span>paletteBlue(<span class="pl-c1">22</span>), <span class="pl-v">family</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>serif<span class="pl-pds">"</span></span>, <span class="pl-v">ylim</span><span class="pl-k">=</span>c(<span class="pl-c1">0</span>, <span class="pl-c1">20</span>), <span class="pl-v">main</span><span class="pl-k">=</span><span class="pl-c1">NULL</span>)
+hist(<span class="pl-smi">imputedTotalStepsDay</span><span class="pl-k">$</span><span class="pl-smi">steps</span>, <span class="pl-v">breaks</span><span class="pl-k">=</span><span class="pl-c1">20</span>, <span class="pl-v">xlab</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>Number of Steps Taken<span class="pl-pds">"</span></span>, 
+     <span class="pl-v">col</span><span class="pl-k">=</span>paletteRed(<span class="pl-c1">22</span>), <span class="pl-v">family</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>serif<span class="pl-pds">"</span></span>, <span class="pl-v">ylim</span><span class="pl-k">=</span>c(<span class="pl-c1">0</span>, <span class="pl-c1">20</span>), <span class="pl-v">main</span><span class="pl-k">=</span><span class="pl-c1">NULL</span>)
+mtext(<span class="pl-s"><span class="pl-pds">"</span>Histograms of Total Number of Steps Taken per Day, Without/With Imputed Values<span class="pl-pds">"</span></span>,
+      <span class="pl-v">adj</span><span class="pl-k">=</span><span class="pl-c1">0.95</span>, <span class="pl-v">family</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>serif<span class="pl-pds">"</span></span>, <span class="pl-v">font</span><span class="pl-k">=</span><span class="pl-c1">2</span>)</pre></div>
+<p><a target="_blank" rel="noopener noreferrer" href="/Natasha-R/Reproducible-Research-Course-Project-1/blob/master/figure/unnamed-chunk-17-1.png"><img src="/Natasha-R/Reproducible-Research-Course-Project-1/raw/master/figure/unnamed-chunk-17-1.png" alt="plot of chunk unnamed-chunk-17" style="max-width:100%;"></a></p>
+<p>It can be seen that the frequency of values increases in the second histogram, which is expected, due to the imputed values.</p>
+<p>More explanations for the differences between the non and imputed data sets can be seen by looking at the NA values grouped by their date variable.</p>
+<div class="highlight highlight-source-r"><pre><span class="pl-smi">naByDate</span> <span class="pl-k">&lt;-</span> <span class="pl-smi">initialData</span>[is.na(<span class="pl-smi">initialData</span><span class="pl-k">$</span><span class="pl-smi">steps</span>), ]
+table(<span class="pl-smi">naByDate</span><span class="pl-k">$</span><span class="pl-smi">date</span>)</pre></div>
+<pre><code>## 
+## 2012-10-01 2012-10-08 2012-11-01 2012-11-04 2012-11-09 2012-11-10 
+##        288        288        288        288        288        288 
+## 2012-11-14 2012-11-30 
+##        288        288
+</code></pre>
+<p>As there are exactly 288 intervals measured for each day:</p>
+<div class="highlight highlight-source-r"><pre>length(unique(<span class="pl-smi">data</span><span class="pl-k">$</span><span class="pl-smi">interval</span>))</pre></div>
+<pre><code>## [1] 288
+</code></pre>
+<p>It is therefore shown by the above table, that in the initial data set, missing observations are due to entirely missed days, (8 of the days) where no measurements were made whatsoever. This therefore reinforces that the imputing technique used, of utilising average interval data, was likely more useful than potentially using average daily data.</p>
+<h3><a id="user-content-question-5-are-there-differences-in-activity-patterns-between-weekdays-and-weekends" class="anchor" aria-hidden="true" href="#question-5-are-there-differences-in-activity-patterns-between-weekdays-and-weekends"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Question 5: Are there differences in activity patterns between weekdays and weekends?</h3>
+<p>The question indicates that the imputed data set should be used to answer this problem.<br>
+To help in answering this question, firstly a new factor variable should be created within the data frame. This should indicate whether each day is a "weekday" or a "weekend".</p>
+<p>To achieve this, I used the weekdays function to automatically calculate the day of the week each day resided upon, (Monday, Tuesday, etc.) Next, I wrote a for loop, which would assign the factor value "weekend" to all rows it read as having the values "Saturday" or "Sunday", and assign "weekday" to the others.</p>
+<div class="highlight highlight-source-r"><pre><span class="pl-smi">daysData</span> <span class="pl-k">&lt;-</span> <span class="pl-smi">imputedData</span>
+<span class="pl-smi">daysData</span><span class="pl-k">$</span><span class="pl-smi">days</span> <span class="pl-k">&lt;-</span> weekdays(<span class="pl-smi">daysData</span><span class="pl-k">$</span><span class="pl-smi">date</span>)
+<span class="pl-smi">daysData</span><span class="pl-k">$</span><span class="pl-smi">weekday</span> <span class="pl-k">&lt;-</span> as.character(rep(<span class="pl-c1">0</span>, <span class="pl-v">times</span><span class="pl-k">=</span><span class="pl-c1">17568</span>))
+<span class="pl-k">for</span>(<span class="pl-smi">x</span> <span class="pl-k">in</span> <span class="pl-c1">1</span><span class="pl-k">:</span><span class="pl-c1">17568</span>) {
+    <span class="pl-k">if</span>(<span class="pl-smi">daysData</span>[<span class="pl-smi">x</span>, <span class="pl-c1">4</span>] <span class="pl-k">%in%</span> c(<span class="pl-s"><span class="pl-pds">"</span>Saturday<span class="pl-pds">"</span></span>, <span class="pl-s"><span class="pl-pds">"</span>Sunday<span class="pl-pds">"</span></span>)) {
+        <span class="pl-smi">daysData</span>[<span class="pl-smi">x</span>, <span class="pl-c1">5</span>] <span class="pl-k">&lt;-</span> <span class="pl-s"><span class="pl-pds">"</span>weekend<span class="pl-pds">"</span></span>
+    } <span class="pl-k">else</span> {
+        <span class="pl-smi">daysData</span>[<span class="pl-smi">x</span>, <span class="pl-c1">5</span>] <span class="pl-k">&lt;-</span> <span class="pl-s"><span class="pl-pds">"</span>weekday<span class="pl-pds">"</span></span>
+    }
+}
+<span class="pl-smi">daysData</span><span class="pl-k">$</span><span class="pl-smi">weekday</span> <span class="pl-k">&lt;-</span> <span class="pl-k">factor</span>(<span class="pl-smi">daysData</span><span class="pl-k">$</span><span class="pl-smi">weekday</span>)
+head(<span class="pl-smi">daysData</span>)</pre></div>
+<pre><code>##       steps       date interval   days weekday
+## 1 1.7169811 2012-10-01        0 Monday weekday
+## 2 0.3396226 2012-10-01        5 Monday weekday
+## 3 0.1320755 2012-10-01       10 Monday weekday
+## 4 0.1509434 2012-10-01       15 Monday weekday
+## 5 0.0754717 2012-10-01       20 Monday weekday
+## 6 2.0943396 2012-10-01       25 Monday weekday
+</code></pre>
+<p>To compare the weekday and weekend data, and create two plots of the average number of steps taken per interval, the data has to be split into two groups of weekday/weekend data, using the newly created variable.</p>
+<div class="highlight highlight-source-r"><pre><span class="pl-smi">weekdayData</span> <span class="pl-k">&lt;-</span> <span class="pl-smi">daysData</span>[<span class="pl-smi">daysData</span><span class="pl-k">$</span><span class="pl-smi">weekday</span><span class="pl-k">==</span><span class="pl-s"><span class="pl-pds">"</span>weekday<span class="pl-pds">"</span></span>, ]
+<span class="pl-smi">weekendData</span> <span class="pl-k">&lt;-</span> <span class="pl-smi">daysData</span>[<span class="pl-smi">daysData</span><span class="pl-k">$</span><span class="pl-smi">weekday</span><span class="pl-k">==</span><span class="pl-s"><span class="pl-pds">"</span>weekend<span class="pl-pds">"</span></span>, ]</pre></div>
+<p>Next, the average number of steps per interval is calculated, much like it has been done in previous questions.</p>
+<div class="highlight highlight-source-r"><pre><span class="pl-smi">weekdayMean</span> <span class="pl-k">&lt;-</span> aggregate(<span class="pl-smi">steps</span> <span class="pl-k">~</span> <span class="pl-smi">interval</span>, <span class="pl-smi">weekdayData</span>, <span class="pl-smi">mean</span>)
+<span class="pl-smi">weekendMean</span> <span class="pl-k">&lt;-</span> aggregate(<span class="pl-smi">steps</span> <span class="pl-k">~</span> <span class="pl-smi">interval</span>, <span class="pl-smi">weekendData</span>, <span class="pl-smi">mean</span>)</pre></div>
+<p>Finally the panel plot is created. The x axis indicates each 5 minute interval, and the y axis shows the average number of steps taken. The two plots are divided into weekday, and weekend data.</p>
+<div class="highlight highlight-source-r"><pre>par(<span class="pl-v">mfrow</span><span class="pl-k">=</span>c(<span class="pl-c1">2</span>, <span class="pl-c1">1</span>), <span class="pl-v">mar</span><span class="pl-k">=</span>c(<span class="pl-c1">4</span>, <span class="pl-c1">4.1</span>, <span class="pl-c1">3</span>, <span class="pl-c1">2.1</span>))
+plot(<span class="pl-smi">weekdayMean</span><span class="pl-k">$</span><span class="pl-smi">interval</span>, <span class="pl-smi">weekdayMean</span><span class="pl-k">$</span><span class="pl-smi">steps</span>, <span class="pl-v">type</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>l<span class="pl-pds">"</span></span>,
+     <span class="pl-v">main</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>Time Series Plot of Average Steps Taken per Interval, for Weekdays<span class="pl-pds">"</span></span>,
+     <span class="pl-v">xlab</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>Intervals (in 5 mins)<span class="pl-pds">"</span></span>, <span class="pl-v">ylab</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>Number of Steps<span class="pl-pds">"</span></span>, <span class="pl-v">family</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>serif<span class="pl-pds">"</span></span>,
+     <span class="pl-v">col</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>darkred<span class="pl-pds">"</span></span>, <span class="pl-v">lwd</span><span class="pl-k">=</span><span class="pl-c1">1.5</span>, <span class="pl-v">ylim</span><span class="pl-k">=</span>c(<span class="pl-c1">0</span>, <span class="pl-c1">230</span>))
+plot(<span class="pl-smi">weekendMean</span><span class="pl-k">$</span><span class="pl-smi">interval</span>, <span class="pl-smi">weekendMean</span><span class="pl-k">$</span><span class="pl-smi">steps</span>, <span class="pl-v">type</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>l<span class="pl-pds">"</span></span>,
+     <span class="pl-v">main</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>Time Series Plot of Average Steps Taken per Interval, for Weekends<span class="pl-pds">"</span></span>,
+     <span class="pl-v">xlab</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>Intervals (in 5 mins)<span class="pl-pds">"</span></span>, <span class="pl-v">ylab</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>Number of Steps<span class="pl-pds">"</span></span>, <span class="pl-v">family</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>serif<span class="pl-pds">"</span></span>,
+     <span class="pl-v">col</span><span class="pl-k">=</span><span class="pl-s"><span class="pl-pds">"</span>darkblue<span class="pl-pds">"</span></span>, <span class="pl-v">lwd</span><span class="pl-k">=</span><span class="pl-c1">1.5</span>, <span class="pl-v">ylim</span><span class="pl-k">=</span>c(<span class="pl-c1">0</span>, <span class="pl-c1">230</span>))</pre></div>
+<p><a target="_blank" rel="noopener noreferrer" href="/Natasha-R/Reproducible-Research-Course-Project-1/blob/master/figure/unnamed-chunk-23-1.png"><img src="/Natasha-R/Reproducible-Research-Course-Project-1/raw/master/figure/unnamed-chunk-23-1.png" alt="plot of chunk unnamed-chunk-23" style="max-width:100%;"></a></p>
 </article>
   </div>
 
